@@ -1,0 +1,19 @@
+Os estado são uma propriedade que geralmente podem ser renderizadas ou mudam alguma coisa no
+componente. Os estados ajudam a declarar variáveis dentro do render.
+
+// Estrutura lógica de um estado //
+
+class Component extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {idade:23}  // Aqui atribuímos qualquer coisa com qualquer valor //
+    }
+}
+
+Para pegar a informação de um estado, podemos, dentro do render(), declarar um const ou let 
+para obter a informação do estado
+
+// Estrutura lógica de um estado //
+
+const idade = this.state.idade;
+

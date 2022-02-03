@@ -1,0 +1,11 @@
+O render retorna JSX que faz uma renderização  na tela.
+
+// Estrutura lógica render //
+
+class Component extends Component{
+    render(){
+        return (
+            <p> Hello Word! <p>                       /JSX
+        )
+    }
+}

@@ -1,0 +1,17 @@
+
+.post:hover {
+    transform: scale(1.03);
+  }
+  
+  .post {
+    background: rgb(238, 236, 232);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+  }
+  
+  .post img {
+    max-width: 100%;
+  }
+  
+  .post-content{
+    padding:30px
+  }

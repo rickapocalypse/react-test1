@@ -1,0 +1,1 @@
+O lifecycle é um tipo de função que executa algo assim que uma ação for renderizada

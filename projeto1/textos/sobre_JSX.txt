@@ -1,0 +1,1 @@
+Uma variável é escrita no JSX por meio de {}

@@ -1,0 +1,20 @@
+O constructor recebe props que fazem a alteração do estado. Ao criar um constructor é 
+necessário inserir um super(props) que chama o construtor da classe. É utilizado para 
+o React configurar tudo para nós.
+
+
+// Estrutura lógica constructor //
+
+class Component extends Component {
+    constructor(props){
+        super(props);
+        this.state = {};
+    }
+}
+
+- Caso não seja iniciado um state ou fazer uma bind (??) dos métodos, não necessita de um construtor
+- Construtores são chamados antes que um componente seja montado
+- Construtores são usados para :
+    - inicializar o local state através da atribuição de um objeto this.state
+
+- Não se deve chamar setState() dentro do construtor, é melhor declarar a componente no local state

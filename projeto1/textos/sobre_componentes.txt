@@ -1,0 +1,8 @@
+As componentes são as classes do JS, elas recebem estados e propriedades,
+e muda quando o estado é alterado por meio de propriedades
+
+// Estrutura lógica de uma Componente //
+
+class App extends Component{
+    
+}

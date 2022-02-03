@@ -1,0 +1,2 @@
+Para fazer o método utilizar uma propriedade do construtor é necessário ele ser declarado 
+no construtor

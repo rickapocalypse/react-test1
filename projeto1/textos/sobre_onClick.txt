@@ -1,0 +1,11 @@
+O onClick é um efeito sintético e executa uma ação perante o click em uma região
+
+// Estrutura lógica onClick //
+
+<p onClick={()=> função qualquer}
+
+Podemos utilizar métodos da classe para realizar algum comando
+
+//Estrutura lógica handleClick() {
+    função qualquer
+}
